@@ -1,0 +1,133 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	background: url(img/1627190767_24-kartinkin-com-p-seraya-zalivka-fon-krasivo-26.jpg) round;
+	box-sizing:border-box;
+	font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: italic;
+	color:rgb(79, 88, 91);
+	padding-top:30px;
+}
+
+.travel{
+ text-align: center;
+ font-size:18px;
+ margin:auto;
+ padding-top: 20px;
+ text-align: center;
+ padding-bottom: 20px;
+
+}
+
+.predislovie{
+	display: block;
+    text-align: center;
+	font-size: 30px;
+	color:rgb(16, 5, 5);
+	padding-bottom: 50px;
+}
+
+.img{
+	max-width: 550px;
+	display: block;
+	margin: 0 auto;
+	border: 7px solid white;
+}
+
+.onep{
+	padding-top:20px;
+	text-align: left;
+	margin:0 auto;
+	max-width: 700px;
+	font-style: normal;
+	color:black;
+}
+
+.twop{
+	padding-top: 20px;
+	text-align: left;
+	margin: 0 auto;
+	max-width: 700px;
+	color:black;
+	font-style: normal;
+
+}
+
+ul{
+	padding-top:20px;
+	text-align: left;
+	max-width: 700px;
+	padding-left: 30px;
+	margin: 0 auto;
+}
+.li{
+ margin-top: 10px;
+ color:black;
+ font-style:normal;
+}
+
+.textinput{
+	border: 1px solid black;
+	height: 50px;
+	padding: 0 15px;
+	font-size: 18px;
+	margin: 0 0 15px 0;
+	width: 300px;
+	text-align: center;
+	max-width: 700px;
+}
+
+.buttontext{
+	display: block;
+	width: 300px;
+	height: 50px;
+	background:rgb(93, 85, 85);
+	margin: 0 auto;
+}
+
+.form{
+	display: block;
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-style: normal;
+	padding-top: 10px;
+	max-width: 700;
+	margin: 0 auto;
+	color:black;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
